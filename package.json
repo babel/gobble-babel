@@ -1,0 +1,17 @@
+{
+  "name": "gobble-6to5",
+  "version": "0.0.1",
+  "description": "Compile ES6 files with gobble and 6to5",
+  "author": "Rich Harris",
+  "license": "MIT",
+  "repository": "https://github.com/gobblejs/gobble-6to5",
+  "dependencies": {
+    "6to5": "^1.7.14"
+  },
+  "keywords": [
+    "gobble"
+  ],
+  "files": [
+    "index.js"
+  ]
+}
