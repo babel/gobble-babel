@@ -1,11 +1,8 @@
 module.exports = _6to5;
 
 function _6to5 ( code, options ) {
-	options.filename = this.filename;
-	//options.sourceMap = true;
-	var transformed = require( '6to5' ).transform( code, options );
-
-	return transformed.code;
+	options.sourceMap = options.sourceMap !== false;
+	return require( '6to5' ).transform( code, options );
 }
 
 _6to5.defaults = {
