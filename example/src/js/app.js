@@ -8,6 +8,6 @@ window.onload = () => document.body.innerHTML = html;
 console.log( 'html', html );
 
 function data () {
-	let greeting = 'Hello', name = 'world';
+	var greeting = 'Hello', name = 'world';
 	return { greeting, name };
 }
