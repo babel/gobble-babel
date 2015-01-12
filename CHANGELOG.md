@@ -1,5 +1,10 @@
 # changelog
 
+## 1.0.3
+
+* Use `id` option for cleaner output
+* Update 6to5 to 2.10.0 for performance gains
+
 ## 1.0.2
 
 * Require 6to5-core, not 6to5 (duh)
