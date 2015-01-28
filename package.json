@@ -1,6 +1,6 @@
 {
   "name": "gobble-6to5",
-  "version": "1.0.3",
+  "version": "3.0.0",
   "description": "Compile ES6 files with gobble and 6to5",
   "author": "Rich Harris",
   "license": "MIT",
