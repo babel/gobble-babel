@@ -1,12 +1,12 @@
-module.exports = to5;
+module.exports = babel;
 
-function to5 ( code, options ) {
+function babel ( code, options ) {
 	options.sourceMap = options.sourceMap !== false;
-	return require( '6to5-core' ).transform( code, options );
+	return require( 'babel-core' ).transform( code, options );
 }
 
-to5.id = '6to5';
+babel.id = 'babel';
 
-to5.defaults = {
+babel.defaults = {
 	accept: '.js'
 };
