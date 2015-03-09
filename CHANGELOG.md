@@ -1,5 +1,13 @@
 # changelog
 
+## 4.0.1
+
+* Allow `.es6` file extensions
+
+## ...4.0.0
+
+* Upgrades to babel-core
+
 ## 1.0.3
 
 * Use `id` option for cleaner output
