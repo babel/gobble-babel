@@ -1,6 +1,6 @@
 {
   "name": "gobble-babel",
-  "version": "4.0.1",
+  "version": "5.0.0",
   "description": "Compile ES6 files with gobble and babel",
   "author": "Rich Harris",
   "license": "MIT",
