@@ -1,5 +1,13 @@
 # changelog
 
+## 5.1.0
+
+* Respect .babelrc files ([#6](https://github.com/babel/gobble-babel/issues/6))
+
+## 5.0.0
+
+* Update babel-core
+
 ## 4.0.1
 
 * Allow `.es6` file extensions
