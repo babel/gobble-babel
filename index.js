@@ -1,5 +1,4 @@
 var transform = require( 'babel-core' ).transform;
-var resolveRc = require( 'babel-core/lib/babel/tools/resolve-rc' );
 var dirname = require( 'path' ).dirname;
 
 module.exports = babel;
@@ -7,8 +6,8 @@ module.exports = babel;
 function babel ( code, options ) {
 	options.sourceMap = options.sourceMap !== false;
 
-	// apply .babelrc files
-	resolveRc( dirname( this.src ), options );
+	// trigger use of .babelrc
+	options.filename = this.src;
 
 	return transform( code, options );
 }
