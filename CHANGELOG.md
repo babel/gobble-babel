@@ -1,5 +1,9 @@
 # changelog
 
+## 5.5.8
+
+Use `options.filename` to pick up `.babelrc`, not internal helper
+
 ## 5.1.0
 
 * Respect .babelrc files ([#6](https://github.com/babel/gobble-babel/issues/6))
