@@ -14,5 +14,6 @@ function babel ( code, options ) {
 
 babel.defaults = {
 	accept: [ '.js', '.es6' ],
-	ext: '.js'
+	ext: '.js',
+	presets: [ 'es2015' ]
 };

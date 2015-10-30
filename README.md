@@ -7,7 +7,7 @@ Compile ES6 files with gobble and babel. Creates sourcemaps automatically.
 First, you need to have gobble installed - see the [gobble readme](https://github.com/gobblejs/gobble) for details. Then,
 
 ```bash
-npm i -D gobble-babel
+npm i -D gobble-babel babel-preset-es2015
 ```
 
 ## Usage
