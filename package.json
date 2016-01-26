@@ -1,12 +1,12 @@
 {
   "name": "gobble-babel",
-  "version": "5.5.8",
+  "version": "6.0.0",
   "description": "Compile ES6 files with gobble and babel",
   "author": "Rich Harris",
   "license": "MIT",
   "repository": "https://github.com/babel/gobble-babel",
   "dependencies": {
-    "babel-core": "^6.0.12"
+    "babel-core": "^6"
   },
   "keywords": [
     "gobble"

@@ -1,8 +1,12 @@
 # changelog
 
+## 6.0.0
+
+* Update Babel
+
 ## 5.5.8
 
-Use `options.filename` to pick up `.babelrc`, not internal helper
+* Use `options.filename` to pick up `.babelrc`, not internal helper
 
 ## 5.1.0
 
